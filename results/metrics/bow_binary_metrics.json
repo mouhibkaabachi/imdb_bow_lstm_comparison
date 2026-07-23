@@ -1,0 +1,80 @@
+{
+  "best_epoch": 1,
+  "best_validation_loss": 0.2513118775067301,
+  "classification": {
+    "accuracy": 0.8954019897821995,
+    "confusion_matrix": [
+      [
+        3343,
+        362
+      ],
+      [
+        416,
+        3317
+      ]
+    ],
+    "f1": 0.8950350782514841,
+    "precision": 0.9016036966567001,
+    "recall": 0.8885614787034557
+  },
+  "inference_time": {
+    "examples": 7374,
+    "seconds_per_example": 7.762963913606163e-05,
+    "total_seconds": 0.5724409589893185
+  },
+  "negation_subsets": {
+    "all": {
+      "accuracy": 0.8954019897821995,
+      "confusion_matrix": [
+        [
+          3343,
+          362
+        ],
+        [
+          416,
+          3317
+        ]
+      ],
+      "examples": 7438,
+      "f1": 0.8950350782514841,
+      "precision": 0.9016036966567001,
+      "recall": 0.8885614787034557
+    },
+    "with_negation": {
+      "accuracy": 0.8924031476997578,
+      "confusion_matrix": [
+        [
+          3098,
+          323
+        ],
+        [
+          388,
+          2799
+        ]
+      ],
+      "examples": 6608,
+      "f1": 0.8873038516405135,
+      "precision": 0.8965406790518898,
+      "recall": 0.8782554126137433
+    },
+    "without_negation": {
+      "accuracy": 0.9192771084337349,
+      "confusion_matrix": [
+        [
+          245,
+          39
+        ],
+        [
+          28,
+          518
+        ]
+      ],
+      "examples": 830,
+      "f1": 0.9392565729827742,
+      "precision": 0.9299820466786356,
+      "recall": 0.9487179487179487
+    }
+  },
+  "trainable_parameters": 640194,
+  "training_seconds": 13.095321708009578
+}

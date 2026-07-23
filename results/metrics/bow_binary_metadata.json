@@ -1,0 +1,61 @@
+{
+  "binary_bow": true,
+  "class_distributions": {
+    "test": {
+      "counts": {
+        "0": 3705,
+        "1": 3733
+      },
+      "proportions": {
+        "0": 0.49811777359505244,
+        "1": 0.5018822264049476
+      }
+    },
+    "train": {
+      "counts": {
+        "0": 17288,
+        "1": 17419
+      },
+      "proportions": {
+        "0": 0.4981127726395252,
+        "1": 0.5018872273604749
+      }
+    },
+    "validation": {
+      "counts": {
+        "0": 3705,
+        "1": 3732
+      },
+      "proportions": {
+        "0": 0.4981847519160952,
+        "1": 0.5018152480839048
+      }
+    }
+  },
+  "data_path": "/Users/mouhibkaabachi/PycharmProjects/imdb_bow_lstm_comparison/data/IMDB_Dataset.csv",
+  "device": "cpu",
+  "hyperparameters": {
+    "batch_size": 64,
+    "dropout": 0.3,
+    "embedding_dim": 64,
+    "epochs": 8,
+    "hidden_dim": 64,
+    "learning_rate": 0.001,
+    "max_sequence_length": 200,
+    "min_delta": 0.0,
+    "patience": 2
+  },
+  "model": "bow",
+  "note": "The test split is evaluated exactly once, after training and model selection on the validation split are complete.",
+  "python_version": "3.12.7",
+  "pytorch_version": "2.13.0",
+  "random_seed": 42,
+  "split_sizes": {
+    "test": 7438,
+    "train": 34707,
+    "validation": 7437
+  },
+  "timestamp": "2026-07-23T01:19:36.414062+00:00",
+  "training_seconds": 13.095321708009578,
+  "vocabulary_size": 10000
+}

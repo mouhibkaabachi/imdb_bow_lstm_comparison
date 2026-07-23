@@ -1,0 +1,34 @@
+# Virtual environments
+.venv/
+venv/
+
+# IDE configuration
+.idea/
+*.iml
+
+# Python cache files
+_pycache_/
+*pycache/
+*.py[cod]
+.pytest_cache/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local dataset
+data/IMDB_Dataset.csv
+
+# Model checkpoints
+checkpoints/
+
+# Archived experiments
+results/archive_before_deduplication/
+
+# Large prediction exports
+results/predictions/*_test_predictions.csv
+
+# University submission files and folders
+3310254_Kaabachi_final_project*/
+3310254_Kaabachi_final_project*.zip
+3310254_Kaabachi_final_project*.pdf
